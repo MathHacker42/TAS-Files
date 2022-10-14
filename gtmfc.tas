@@ -706,29 +706,33 @@ Set, ExtendedVariantMode.DashSpeed, 100
    5,U,Z
   40
 
-***
 
-
-  11,L
+  36,R
+   1,G
    5,R,U,X
    1
-  10,G
+   1,J,G
+   1,G
    9,L,K
-  20,L
-   5,R,Z
-   1,L,J
-## maybe make it 4 frame hyper bhop?
    5,L
-   3,L,J
-  11,L,D
-   1,D
+  10,R
+   6,R,D
+   4,D
    5,Z
+   1,L,J
+   5,L
+   1,L,D
+   3,L
+   5,L,D,X
   40
-   3,L,J
-  32,L
+   1
+  40
+#***
 
-## revise to carry speed
-## into next room to circumvent euni reverse 
+   1,S
+   1,D,J
+  69,O
 
+##6263
 
   99
