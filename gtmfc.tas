@@ -128,6 +128,7 @@ Set, ExtendedVariantMode.DashSpeed, 100
   12,J,G
    2,K,G
   40
+
   
    1
    1,L,K,G
@@ -149,6 +150,8 @@ Set, ExtendedVariantMode.DashSpeed, 100
    5,L,U,Z
    1
   12,J,G
+
+
   40
    1,K
   10
@@ -667,25 +670,65 @@ Set, ExtendedVariantMode.DashSpeed, 100
    5,Z
    1,R,J,G
   10,R
-***
-  10,J
-   5,R,X
-***
+   2,R,J
+   7,R
+   5,R,D,X
   40
+   1,L,J
+ 123
+   5,Z
+   5
+  13,R,J
+  16,R
+   5,L,X
+   6,L,J,G
+   2,L,K,G
+   7,L
+   2,L,J
+   7,L
+   5,L,D,X
+  40
+   1
+   1,J
+   9,K,G
+   5,X
+  40
+  10
+   5,L,U,X
+   2
+  40
+   8
+   1
+  39,R,D
+   3
+   5,L,U,X
+  10
+   5,U,Z
+  40
+
 ***
-  
-  99,R
 
 
-#  12,G
-   
-#   5,R,D,X
-#   6,R,J
+  11,L
+   5,R,U,X
+   1
+  10,G
+   9,L,K
+  20,L
+   5,R,Z
+   1,L,J
+## maybe make it 4 frame hyper bhop?
+   5,L
+   3,L,J
+  11,L,D
+   1,D
+   5,Z
+  40
+   3,L,J
+  32,L
 
-#   1,R,K,G
-#   1,R,J,G
-#   3,R,J
-#   1,R,K,G
-  99,R
+## revise to carry speed
+## into next room to circumvent euni reverse 
+
 
   99
