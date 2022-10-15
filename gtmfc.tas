@@ -709,24 +709,24 @@ Set, ExtendedVariantMode.DashSpeed, 100
 
 
   36,R
-***
    1,G
    5,R,U,X
    1
    1,J,G
    1,G
    9,L,K
+
+## hold jump longer
+## to trigger pillar
+## later to do
+## reverse sooner?
+
    5,L
   10,R
    6,R,D
-
-## fall farther here
-##
-
    5,D
    5,Z
    1,L,J
-***
    6,L
    3,L
    5,L,D,X
@@ -734,14 +734,13 @@ Set, ExtendedVariantMode.DashSpeed, 100
    1
   40
    1
+
    3,J,G
    2
    1,J
    2
    5,U,Z
    6,R,J
-
-
    1,R
    1,L
    1,J,G
@@ -749,9 +748,35 @@ Set, ExtendedVariantMode.DashSpeed, 100
   10,L
 
 ##6230
+
+   5,X
+  40
+
+   1
+   1,J,G
+   2
+   6,R
+   5,U,X
+   2,L,J
+   1,L
+  26,L,J
+
+   5,L,U,X
+  40
 ***
+   1
+   4,J,G
+   6,R
 
-
-
+   5,R,D,X
+   8,R,J
+   4,R
+   3,R,J
+   5,D,X
+   9
+   1,S
+   1,D,J
+  69,O
+***
 
   99
