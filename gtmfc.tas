@@ -701,6 +701,7 @@ Set, ExtendedVariantMode.DashSpeed, 100
    1
   39,R,D
    3
+***
    5,L,U,X
   10
    5,U,Z
@@ -708,6 +709,7 @@ Set, ExtendedVariantMode.DashSpeed, 100
 
 
   36,R
+***
    1,G
    5,R,U,X
    1
@@ -717,22 +719,39 @@ Set, ExtendedVariantMode.DashSpeed, 100
    5,L
   10,R
    6,R,D
-   4,D
+
+## fall farther here
+##
+
+   5,D
    5,Z
    1,L,J
-   5,L
-   1,L,D
+***
+   6,L
    3,L
    5,L,D,X
   40
    1
   40
-#***
+   1
+   3,J,G
+   2
+   1,J
+   2
+   5,U,Z
+   6,R,J
 
-   1,S
-   1,D,J
-  69,O
 
-##6263
+   1,R
+   1,L
+   1,J,G
+   7,L,K,G
+  10,L
+
+##6230
+***
+
+
+
 
   99
