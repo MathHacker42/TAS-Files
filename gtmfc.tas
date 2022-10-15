@@ -567,6 +567,7 @@ Set, ExtendedVariantMode.DashSpeed, 100
   48,D
 
 ## Winter
+***
 
    5,L,U,Z
    2
@@ -589,8 +590,10 @@ Set, ExtendedVariantMode.DashSpeed, 100
    1,R,J
    4,L,J
    5,X
-  13
 
+# Climb right berry (heat)
+
+  13
    1,S
    1,D,J
   69,O
@@ -603,16 +606,18 @@ Set, ExtendedVariantMode.DashSpeed, 100
   10
    5,Z
    8,R,J
-  11,R
 
+# Climb bottom berry (heat)
+
+  11,R
   21,R,J
   24,L,J
-   
    5,U,X
-
    3
    3
    8,L,J
+
+# Climb top berry (spring)
 
    5,R,U,X
   10
@@ -634,6 +639,9 @@ Set, ExtendedVariantMode.DashSpeed, 100
    5,J,Z
   40
   11,R,D
+
+# Heat Void Coin
+
   12,L,D
   24,D
   40
@@ -644,6 +652,9 @@ Set, ExtendedVariantMode.DashSpeed, 100
   69,O
    5,X
    4,R,J
+
+# Fall Void Coin
+
    1,S
    1,D,J
   69,O
@@ -680,6 +691,9 @@ Set, ExtendedVariantMode.DashSpeed, 100
    5
   13,R,J
   16,R
+
+# Climb memory berry
+
    5,L,X
    6,L,J,G
    2,L,K,G
@@ -698,15 +712,17 @@ Set, ExtendedVariantMode.DashSpeed, 100
    2
   40
    8
+***
    1
   39,R,D
+
+# Climb left berry
+
    3
-***
    5,L,U,X
   10
    5,U,Z
   40
-
 
   36,R
    1,G
@@ -714,17 +730,13 @@ Set, ExtendedVariantMode.DashSpeed, 100
    1
    1,J,G
    1,G
+
    9,L,K
-
-## hold jump longer
-## to trigger pillar
-## later to do
-## reverse sooner?
-
    5,L
   10,R
    6,R,D
    5,D
+
    5,Z
    1,L,J
    6,L
@@ -747,11 +759,8 @@ Set, ExtendedVariantMode.DashSpeed, 100
    7,L,K,G
   10,L
 
-##6230
-
    5,X
   40
-
    1
    1,J,G
    2
@@ -760,10 +769,8 @@ Set, ExtendedVariantMode.DashSpeed, 100
    2,L,J
    1,L
   26,L,J
-
    5,L,U,X
   40
-***
    1
    4,J,G
    6,R
@@ -772,11 +779,107 @@ Set, ExtendedVariantMode.DashSpeed, 100
    8,R,J
    4,R
    3,R,J
+
+# Winter berry 7 (retry)
+
    5,D,X
    9
    1,S
    1,D,J
   69,O
+
+   2,L,J
+   5,U,X
+   1
+  40
+   7,J
+   4
+   5,X
+   5
+   8,L,J
+  12,L,K,G
+  12,L,J,G
+
+# Winter berry 6 (top)
+
+   5,R,X
+  40
+  10
+   6,L
+   5,D,X
+   2
+   2,L,J
+  40,J
+   5,L
+   4,L,J
+   5,D,X
+  10
+   5,X
+   1
+
+   1,J,G
+  19,D
+   3
+   5,L,U,X
+  10
+
+############
+
+#***
+#   5,D,X
+#  10
+#   5,X
+#  40
+#   5,L,J
+#***
+#  17,L
+#  50,L,J
+#***
+#   5,L,U,X
+#  40
+
+#   1
+#   1,J,G
+#   8,G
+
+#   4
+#  16,R,J
+#   5,L,X
+#   1
+#   4,L,J,G
+#   7,L
+#   5,R,X
+#   3
+#   1,J,G
+#   1,L
+#   7,R,G
+#   1
+#***
+#   5,U,X
+
+
+#-----------
+
+  14,D
+   5,Z
+  40
+   1,S
+   1,D,J
+  69,O
+   6,J
+   5,L,X
+  40
+   1
+   1,J,G
+   8,G
+   5,U,X
+  10
+
 ***
+
+##6905
+
+############
+
 
   99
