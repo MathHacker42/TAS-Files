@@ -129,45 +129,26 @@ Set, ExtendedVariantMode.DashSpeed, 100
    2,K,G
   40
 
-  
-   1
-   1,L,K,G
-   1,L,J,G
-   1,L,K,G
-   1,L,J,G
-  14,L
-
-   5,U,C
-
-   1
-   4,L,J
-   1,L,D
-   1
-  13,L,D
-   9,R,D
-   1,R
-  
-   5,L,U,Z
-   1
-  12,J,G
-
-
+  11
+   5,L,D,X
+   8,R,J
+   4,R
+   5,U,X
   40
-   1,K
-  10
-   5,Z
-   1,L,J
-   7,L
+  13
+   5,L,D,X
+   1,J
+   5
+   2,L
   22,L,J
-
    5,U,Z
-  38,R,J
+  39,R,J
    5,U,Z
 
 # spring berry 4
 
-  18,L,J
-   4,J
+  19,L,J
+   3,J
    5,U,Z
   40
 
@@ -309,10 +290,11 @@ Set, ExtendedVariantMode.DashSpeed, 100
    2,R
   40
 
-   9,R
+## delay for lightning cycle
+  13,R
+##
 
    5,R,D,X
-
 
   10,L,D
   19,L,D
@@ -559,15 +541,15 @@ Set, ExtendedVariantMode.DashSpeed, 100
    3
    8
    5,U,X
-
   10
-
-############
-
   48,D
 
+## delay for spinner cycle
+   1,D
+##
+
+
 ## Winter
-***
 
    5,L,U,Z
    2
@@ -712,7 +694,6 @@ Set, ExtendedVariantMode.DashSpeed, 100
    2
   40
    8
-***
    1
   39,R,D
 
@@ -759,6 +740,10 @@ Set, ExtendedVariantMode.DashSpeed, 100
    7,L,K,G
   10,L
 
+## delay for spinner cycle:
+   1,L
+##
+
    5,X
   40
    1
@@ -768,6 +753,7 @@ Set, ExtendedVariantMode.DashSpeed, 100
    5,U,X
    2,L,J
    1,L
+#***
   26,L,J
    5,L,U,X
   40
@@ -910,8 +896,171 @@ Set, ExtendedVariantMode.DashSpeed, 100
    1,R,J
   15,J
 
-# "Fall" berry 1
+# Winged berry
+
+   5,R,D,X
+   1
+  40
+  10
+   2,J
+   5,L,D,X
+  10
+   5,U,X
+  10
+  15,L,D
+
+## Fall
+
+  34,R,D
+   5,D,X
+   1,J,G
+   3
+  28,D
+   5,X
+
+# Fall berry 2
+
+   7
+   3,J
+   5,L,X
+   1
+   3
+   8
+  10,L,J
+   7,L
+   5,U,X
+   1
+   3
+  39
+   3
+   5,R
+   3
+   6
+   5,U,X
+   1
+  40
+   3
+   8,J,G
+   7,R
+   5,J,X
+  25,L,D
+  12,D
+   2,L,J
+   5,R,D,X
+  40
+  10,L,J
+   5,U,X
+  10
+  14,L,D
+  36,D
+   5,X
+
+   2,L,J
+   1,L,K,G
+   1,L,J,G
+   8,L,K,G
+  11,L
+   5,J,Z
+  40
+   2
+  13,D
+  40
+  16,R
+   3
+   5,L,X
+  43,L
+   5,U,X
+  10
+  15,L,D
+   5,R,Z
+  40
+   3
+   6
+   3
+   4
+  52,L
+   5,U,X
+  10
+  25,L
+   3
+   5,X
+  47,L
+   5,L,U,X
+  10
+  18,L,D
+  40
+   3
+   5,Z
+  40
+   3
+   2
+  40
 ***
+   2,L,J,G
+   1,L,K,G
+   1,L,J,G
+   1,L,K,G
+  14,L
+   5,J,Z
+  40
+  10,R
+   5,L,D,X
+   1
+   1,R,J
+   7,R
+#   1,R,J
+   1,R
+   5,R,D,X
+  40
+   1
+   1,J,G
+
+  10
+  21,L
+   5,L,U,X
+  40
+  10
+
+############
+
+  61,D
+   5,L,D,X
+  40
+   1,L,D
+  40
+***
+   2,L
+   1,L,J
+  14,L
+   1,L,J
+   4,L
+   5,U,X
+   1
+  10
+  19,L
+   1,G
+   9,L,K,G
+   6,L
+   4,R
+***
+   9
+   1,L,G
+***
+  14,L,D,G
+   6,D,G
+   5,L,D,X
+   1
+   1,R,J
+   8
+***
+   5,D,X
+   6
+***
+   1,S
+   1,D,J
+  69,O
+
+############
 
 
   99
