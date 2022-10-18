@@ -427,27 +427,20 @@ Set, ExtendedVariantMode.DashSpeed, 100
 
 # heat berry 2
 
-  41,D
-   6,R,D
-
-   5,U,X
-   2
-  40
-  11
+  47,D
    5,U,X
   40
-  11
-   5,L,Z
-  10
-  10,D
-   5,Z
-   1,R,J
-   7,R
+  16,R
+   5,U,X
+  40
+  15,R
+   5,L,D,X
+   2,R,J
+  13,R
 
-   4,R,J
-   1,R,K,G
-  10,R,J,G
-  56,U,G
+  12,R
+
+  55,U,G
   19,R
    5,U,X
   40
@@ -456,6 +449,8 @@ Set, ExtendedVariantMode.DashSpeed, 100
 
   49,R
    5,R,D,X
+***
+
   40
    2,R
   40
@@ -953,8 +948,11 @@ Set, ExtendedVariantMode.DashSpeed, 100
   10
   14,L,D
   36,D
-   5,X
 
+# Fall berry 3
+***
+
+   5,X
    2,L,J
    1,L,K,G
    1,L,J,G
@@ -979,6 +977,9 @@ Set, ExtendedVariantMode.DashSpeed, 100
    3
    4
   52,L
+
+# Fall berry 4
+
    5,U,X
   10
   25,L
@@ -995,7 +996,6 @@ Set, ExtendedVariantMode.DashSpeed, 100
    3
    2
   40
-***
    2,L,J,G
    1,L,K,G
    1,L,J,G
@@ -1016,6 +1016,9 @@ Set, ExtendedVariantMode.DashSpeed, 100
    1,J,G
 
   10
+
+# Fall berry 5
+
   21,L
    5,L,U,X
   40
@@ -1023,42 +1026,76 @@ Set, ExtendedVariantMode.DashSpeed, 100
 
 ############
 
-  61,D
-   5,L,D,X
-  40
-   1,L,D
-  40
 ***
-   2,L
-   1,L,J
-  14,L
-   1,L,J
-   4,L
-   5,U,X
-   1
-  10
-  19,L
-   1,G
-   9,L,K,G
-   6,L
-   4,R
-***
-   9
-   1,L,G
-***
-  14,L,D,G
-   6,D,G
    5,L,D,X
    1
    1,R,J
-   8
-***
+   7,R
+   4,R,J
+   5,L,D,X
+  40
+   1,R,J
+   9,R
    5,D,X
-   6
-***
-   1,S
-   1,D,J
-  69,O
+  10
+   2,J
+  40
+   5,L,Z
+  16,R,D
+   9,D
+  36,R,D
+   5,Z
+  10
+  60,D
+   5,L,X
+  10
+  26,R,D
+  31,L,D
+   5,R,U,X
+   1
+   1,J,G
+   8,D
+   5,U,X
+
+##3021   
+
+#-----------
+
+#***
+#  61,D
+#   5,L,D,X
+#  40
+#   1,L,D
+#  40
+#   2,L
+#   1,L,J
+#  14,L
+#   1,L,J
+#   4,L
+#   5,U,X
+#   1
+#  10
+#  19,L
+#   1,G
+#   9,L,K,G
+#   6,L
+#   4,R
+#   9
+#   1,L,G
+#  14,L,D,G
+#   6,D,G
+#   5,L,D,X
+#   1
+#   1,R,J
+#   8
+#   5,D,X
+#   6
+#   1,S
+#   1,D,J
+#  72,O
+#   5,U,X
+
+##9029
 
 ############
 
