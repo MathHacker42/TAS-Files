@@ -1231,6 +1231,7 @@ Set, ExtendedVariantMode.DashSpeed, 100
    4
 
 ## Memory
+#***
 
    1,S
    1,D,J
@@ -1243,77 +1244,230 @@ Set, ExtendedVariantMode.DashSpeed, 100
    5,U,X
   40
    7,L
+
+# Memory berry 1
+
+#***
   39,R,D
    5,D,X
   40
   10
-   2,R
-   5,U,Z
+
+   5,J,Z
   40
    3
-  20,J
+   1
+
+   9,J,G
+   6
+   5,D,X
+
+  13,L,J
+  18,R
+   5,D,X
+   1,L,J
+  30,L,D
+   1,L,J
+  17,L,K
+   3
+
+   5,D,X
+  10
+   2,L,J
+   5,X
+  40
+   1,J,G
+   7
+  11,L
+   5,U,Z
+
+# Memory berry 2
+
+#***
+   9,L,J
+  11,L
+   8,L,K
    5,L,U,X
   40
-  15,R
-   5,R,D,X
-   8
-  40
-   5
-   6,L,D
-  22,R,D
-   5,U,X
-   2,R,J
-  12,R
-
-  12,R,K
-  40
-
-   5,R,U,X
-   1
-   1,J,G
-  29,D
-
-############
-
-#   1,L,J
-#   9,L,K
-#   7,L
-#   1,L,J
-#   7,L
-
-#-----------
-
-  11,L,J
-  12,L
-  10,R
-  24,R,J
-   5,L,Z
-  40
   10
-
-
-  10,D
+  17,D
    5,L,D,X
-  40
-   1,D
-   6,J
-   6,R
+  10
    5,L,J,Z
   40
-   1
-  40
-  11
+   2,G
+  12,J,G
+  12,K,G
+   1,J,G
    5,X
   45,R,D
   32
   12,J
    5,X
+
+# Memory berry 3
+
   21,R
   21,G
-  99,L,D
+  32,L,D
+  10,R,D
+  40
+   7,R,D
+  11,D
+   5,L,X
+  40
+  10
+   5,U,X
+  10
+  41,L
+#***
+  10
+
+   5,L,U,X
+   1
+  40
+  11
+   5,R,D,X
+  10
+   5,L,X
+  40
+   1
+  12,J
+   5,U,X
+  40
+  31
+   5,L,U,X
+  40
+   1
+  10,J
+   5,U,X
+  40
+  11
+   3
+   5,L,U,X
+  10
+   5,L,D,X
+   5
+   1,J
+   1,K,G
+   3,R
+  16,D
+   5,D,X
+  40
+  13
+   5,J,Z
+   1
+   6,D
+  18,L,D
+   5,D,X
+  15,R
+  16,J,G
+  13,R,K,G
+   7,R
+   6,L
+   5,D,X
+  13
+   3
+   5,R,J,Z
+  50
+  11,J,G
+   7,R
+   1,R,J
+  14,R
+  13,D
+   5,X
+   1
+  40
+   1
+  40
+   2
+  40
+   1,S
+   1,D,J
+  69,O
+   5,D,X
+  10
+   5,X
+   3
+  40
+   4
+  40
+   7,J
+   1,R,K,G
+   1,R,J,G
+   7,R,J
+  10,R
+   9,R,J
+   5,R,U,X
+  10
+  17,R,D
+  40
+   8,D
+   5,X
+   2
+   1,J,G
+   7
+
+   5,D,X
+  10
+   5,D,X
+  10
+   1,J
+   5,R,U,X
+   1,R,J,G
+   9
+   5,D,X
+   9
+   1,J
+   5,U,X
+   1,J
+   1,K
+  14,L
+  17,D
+   3,L,D
+   5,L,D,X
+   1,R,J
+   2,R,K,G
+   1,R,J,G
+   1,R,K,G
+  20,R,K
+  10,R,J,G
+   7,R
+   4,R,J
+   5,U,X
+  10
+   8
+   1,L,J
+   3,L,K
+   1,L,J
+  16,L
+   5,X
+   1
+  40
+   9
+   5,R,U,X
+  29,R,D
+  40
+   5,Z
+  40
+   2
+   8,L,J
+   5,U,X
+   2
+   1,J
+  12,L,J
+  24,L
+   5,Z
+   5
+   1,R,J
+## maybe try holding jump
+## to hit on the earlier dash cycle
+  83,R,D
+  20,D
+   5,D,X
+   1
 
 
-   
 
 
-  99
+ 999
