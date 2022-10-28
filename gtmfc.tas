@@ -245,27 +245,43 @@ Set, ExtendedVariantMode.DashSpeed, 100
   40
 
 ######
-   8,L,D
-   5,L,D,X
-   3,R,J
-   9,R,K,G
-   7,R
-##1928
+
+#   8,L,D
+#   5,L,D,X
+#   3,R,J
+#   9,R,K,G
+#   7,R
+
+## saves 1f but
+## doesn't collect
 
 #------
-#   5,R,D,X
-#   5
-#  11,L,J
-#  10,D,X
-#   5,J
-##1929
+   5,R,D,X
+   5
+
+## collect berry
+   3
+##
+
+  11,L,J
+  10,D,X
+
+   5,J
+
 #######
 
    5,R,X
   40
   10
-  10,L,D,X
-   5,J
+   5,L,D,X
+   8
+
+## collect berry
+   2
+##
+
+   1,J
+   1,K,G
    5,R,D,X
    5
 
@@ -279,7 +295,6 @@ Set, ExtendedVariantMode.DashSpeed, 100
    7,R,J,G
    7,R
   10,L
-##2032
 
 ############
 
@@ -294,11 +309,9 @@ Set, ExtendedVariantMode.DashSpeed, 100
 ##
 
    5,R,D,X
-
   10,L,D
   19,L,D
    5,D,X
-
   10
    5,R,U,X
   40
@@ -317,7 +330,6 @@ Set, ExtendedVariantMode.DashSpeed, 100
    1,D,J
   69,O
    5,J,X
-
   12,L,D
 
 # Spring Coin
@@ -427,19 +439,30 @@ Set, ExtendedVariantMode.DashSpeed, 100
 # heat berry 2
 
   47,D
+***
+
+## collect berry
+   9,D
+##
+
+############
+
+   5,J
    5,U,X
   40
-  16,R
+  11
+   5,L,Z
+   1,J
+   7
+   1,L
+  14,D
    5,U,X
   40
-  15,R
-   5,L,D,X
-   2,R,J
-  13,R
+  30
+  30,R,G
 
-  12,R
+## 3273
 
-  55,U,G
   19,R
    5,U,X
   40
@@ -453,7 +476,10 @@ Set, ExtendedVariantMode.DashSpeed, 100
    2,R
   40
 
-   8
+## collect berry
+  20
+#***
+##
 
    5,J,Z
    1
@@ -466,6 +492,7 @@ Set, ExtendedVariantMode.DashSpeed, 100
   40
 
 # heat berry 4
+***
 
   15,R,J
   22,L,D
@@ -481,9 +508,6 @@ Set, ExtendedVariantMode.DashSpeed, 100
    6,L,J
    1,R,K
   11,R
-
-
-##3835
 
    5,Z
    1,R,J
@@ -512,19 +536,23 @@ Set, ExtendedVariantMode.DashSpeed, 100
 
    5,R,Z
   40
-
    1,L,J
    9,R,D
    5,R,U,X
-
    2
    1,J
   12,L,D
   33,R,D
    2,J
    5,R,D,X
-
    5
+
+## collect berry
+   3
+##
+***
+
+
    1,R,J
    8,R,K
    5,R,X
@@ -551,9 +579,13 @@ Set, ExtendedVariantMode.DashSpeed, 100
    1,R,J
    1,R,K
   16,R
-   1,R,J
-  11,R
+
+   6,R
+   6,R,J
    5,D,X
+
+## 4270
+
    1
   40
    9
@@ -568,29 +600,104 @@ Set, ExtendedVariantMode.DashSpeed, 100
 
 # Climb right berry (heat)
 
-  13
+   1
+
+############
+
+#   4
+#   1
+#   4,R,J
+#   5,U,X
+#  10
+#  13,R,D
+#   5,U,Z
+#  40,L,J
+#  11,L,K,G
+#   7,L
+
+## 4455
+
+#-----------
+
+## collect berry
+  26
+
    1,S
    1,D,J
   69,O
+***
+
+## 4458
+
+############
+
    5,L,Z
    1,L,J
   40
    2,L,J
-  54,L
+***
+
+
+
+
+
+############
+
+#   9,L
+#   5,D,X
+#  10
+#   5,R,Z
+#   5
+#  31,L,J
+#   5,D,X
+#   1
+#***
+
+## 4562
+
+#-----------
+
+  55,L
    5,D,X
+***
+
+## 4556
+
+############
+
+***
   10
    5,Z
-   8,R,J
 
-# Climb bottom berry (heat)
+   1,R,J
+   7,R
+#***
 
-  11,R
-  21,R,J
-  24,L,J
+######
+
+   9,R
+  33,R,J
+  20,L
    5,U,X
+#***
+
+## 4644
+
+#-----
+
+#  29,R,J
+#  26,L
+#   5,U,X
+#***
+
+## 4637
+
+######
+
    3
    3
    8,L,J
+#***
 
 # Climb top berry (spring)
 
@@ -953,8 +1060,10 @@ Set, ExtendedVariantMode.DashSpeed, 100
    5,J,Z
   40
    2
+
   13,D
   40
+#***
   16,R
    3
    5,L,X
@@ -1217,6 +1326,7 @@ Set, ExtendedVariantMode.DashSpeed, 100
 # Memory berry 1
 
 #***
+
   39,R,D
    5,D,X
   40
@@ -1276,6 +1386,7 @@ Set, ExtendedVariantMode.DashSpeed, 100
 
 # Memory berry 3
 
+#***
   21,R
 
    1,G
@@ -1285,8 +1396,10 @@ Set, ExtendedVariantMode.DashSpeed, 100
    8,K,G
 
   26,L,D
-  14,D
+
+  11,D
    5,L
+
    5,R,Z
    1,J
    7
