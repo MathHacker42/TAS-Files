@@ -2,6 +2,7 @@ console load BeefyUncleTorre/map/1
    1
 
 # teleport mode
+#Start
  180
 Set, ExtendedVariantMode.DashSpeed, 100
    1,S
@@ -27,107 +28,121 @@ Set, ExtendedVariantMode.DashSpeed, 100
    1,X
    9
 
-#start
-
-  17,R,J
-   8,K
-   5,L,U,X
-   4,L,J,G
+  18,R,J
+   7,K
+   6,L,U,X
+   3,L,J,G
    7,L
    2,J
-   5,L,D,X
-   1
+   6,L,D,X
    1,J
    8
-   5,R,U,X
+   7,R,U,X
    2
    1,J
-  21,D
+  21,R,D
    7,R
    1,R,J
-  10,R
-   5,U,X
-   7
+   9,R
+  12,U,X
+
+#ctrl+r
+#lvl_ch1-peace-00
    1,S
    1,D,J
-
-#spring
-
-  69,O
-   5,R,J,Z
-   2
-   2,J,G
-   1,L,J
+   1,O
+  68
+   4,X
    2,R,J
-  12,R,K,G
-   2,R,J,G
-
-# spring berry 1
-
-  12,D
+   1,G
+   1,K,G
+   1,L,K
+   2,R,K
+  11,R,J,G
+   1,R
+   2,R,K,G
+  12
   10,Z
    1,L,J
   18,L,D
-   5,D,X
-  10
+  15,D,X
    4,L,J
    5,R,U,X
-  41
+  40
+
+#lvl_peace-000
+   1
   12,J,G
    1,K,G
    5,R,U,X
-  41
-   5,L,J
+  40
 
-# spring berry 2
-
+#lvl_peace-29
+   1
+   1,L,J
+   4,L,K
    8,L
    5,R,D,X
-   1,R,J
-   8,R
    2,R,J
+   8,R
+   1,R,J
   40
-   5,R,U,X
-  92,R,D
+
+#lvl_peace-02
+   4,X
+   1,R,J
+   1,R
+   2,L
+   5,R
+  40
+
+#lvl_peace-03
+  21,R,D
    1,R,J
   34,R,D
    5,R,U,X
    1,J
   25,L
+#might be able to shave a few frames here
+#looks like trash to optimize
+#nah
   33,D
    5,R,D
    9,L,D
   40
+
+#lvl_peace-04
   13,L,D
-   5,D,X
-  10
+  15,D,X
   12,J
-   5,R,X
+   5,R,Z
   40
+
+#lvl_peace-05
    1
    1,J
    8,L
-   5,U,X
-  10
-
-# spring berry 3
-
-  18,D
-   2,R,D
-   6,R
-   1,L
+  15,U,X
+   1
+   6,L
+  18,R,D
+   1,L,D
    5,R,X
   12,L,J
   12,K,G
   12,J,G
    2,K,G
   40
+
+#lvl_peace-06
   11
    5,L,D,X
    8,R,J
    4,R
    5,U,X
   40
+
+#lvl_peace-07
   13
    5,L,D,X
    1,J
@@ -137,68 +152,92 @@ Set, ExtendedVariantMode.DashSpeed, 100
    5,U,Z
   39,R,J
    5,U,Z
-
-# spring berry 4
-
   19,L,J
    3,J
    5,U,Z
   40
+
+#lvl_peace-08
   14,R
-   5,R,U,X
-
-# spring berry 5
-
+   6,R,U,X
   40
+
+#lvl_peace-26
+#ew
   19,L,D
-  28,R,D
+  27,R,D
    5,R,D,X
   40
+#lvl_peace-09
   30,D
    5,L,U,Z
   40
   11
-   5,L,D,X
-  23,D
-  40
+  10,D,X
+   1,L,J
+   1,L,K
+  14,L
    5,D,X
+  40
+
+#lvl_peace-10
   10
    5,R,Z
-   6,L,J
-  29,L
-   9,R,D
-   4,R
-   5,X
-  21,L,J
-  31,L,D
-   5,Z
-   2
+   8,L,J
+   3,L
+   4,L,J
+  20,L,D
+   8,R,D
+   1,R
+   3,R,D
+   5,R,X
+   1,L,K
+  11,L,J
+   5,L
+   2,L,J
+  25,L,D
+   1,L
+   6,D
+   7,Z
    1,R,J
    1,R
    1,S
    1,D,J
   34
-   1,R
-   5,R
+
+#potential berry collect strat?
+#   3,R
+#   3
+#   5,U,X
+#   1,R,J
+#  21,R,D
+#  10,R,Z
+#   5,L,J
+
+   6,R
    2,R,J
    5,U,X
    1
    1,R,J
   27,R,D
    3,R,J
-
-# spring berry 6 (seeded_
-
    5,U,X
   40
-  11
-   5,X
-  10
-  16,L,D
+
+#lvl_peace-08
+   3
+   4,J
+   7,R
+   5,Z
+   1,R,J
+   6
+  10,R
    5,L,D,X
    1,R,J
    4,R
   40
+
+#lvl_peace-09
   16,R,D
    5,D,X
    5,R,J
@@ -209,118 +248,105 @@ Set, ExtendedVariantMode.DashSpeed, 100
    5,D
    3
    5,U,Z
-  69,L,J
-   2
+  34,L,J
+  13,L
+  10,L,D
+  14,L
    5,U,Z
   29,L,J
    1,L,K,G
-   2,L,J,G
-   2,L,K,G
-  16,L
-   6,L,J
-
-# spring berry 7
-
-   4,R,K
-  21,R,D
-  39,L,D
-  40
-
-############
-
-#   8,L,D
-#   5,L,D,X
-#   3,R,J
-#   9,R,K,G
-#   7,R
-
-## saves 1f but
-## doesn't collect
-
-#------------
-   5,R,D,X
-   5
-
-## collect berry
+   9,L,J,G
+   5,L
+   2,L,J
    3
-##
-
-  11,L,J
-  10,D,X
-   5,J
-
-#############
-
-   5,R,X
+   1,J
+   1,R,K
+  22,R,D
+  40,L,D
   40
-  10
-   5,L,D,X
-   8
 
-## collect berry
-   2
-##
+#lvl_peace_06
+   7,L,D
+   1,L
+   1,L,G
+   5,L,J
+  16,L,D
+  14,L,D,X
+   1,R,J
+   5,R,D,X
+  40
+
+#lvl_ch2-peace-12
+  10
+  13,L,D,X
 
    1,J
    1,K,G
-   5,R,D,X
-   5
+  10,R,D,X
 
+#+3f berry
+   3
 # Void 1
-
+#-9f wallboost turnaround
    1,L,J
-   4,R,J
-   5,U,X
+   3,J
+   5,U,Z
+   1,J
+   1,R,K,G
    1,R,J,G
    1,R,K,G
-   7,R,J,G
-   7,R
-  10,L
+   4,J,G
+   1,R,J
+   6,R
+   3,L
    5,R,Z
    1,R,J
    7,R
    2,R
   40
 
-## delay for berry and
-## lightning cycle
-  12,R
-##
+#lightning cycle
+   0
 
    5,R,D,X
   10,L,D
   19,L,D
    5,D,X
+#i always forget how cursed hitsquash is
   10
    5,R,U,X
   40
+#lvl_crane-02
    1
-   1,D,J,G
-   6,L,D
-
-# Winter Coin
-
-  15,R,D
-  26,D
+   1,J,G
+  11,L
+#-9f lol
+   6,D,X
   40
+  12,J
+  12,K
    5,U,X
   40
    1,S
    1,D,J
-  69,O
-   5,J,X
+   1,O
+  68
+#0:38.692(2276)
+
+   4,X
+   1,J
   12,L,D
-
-# Spring Coin
-
   11,R,D
-   5,U,X
-   1
+   6,U,X
   40
+
+#lvl_crane-03
+
   11
    5,L,X
   40
   10
+
    5,R,D,X
    8,L,J
    4,L
@@ -329,29 +355,28 @@ Set, ExtendedVariantMode.DashSpeed, 100
   10,J,G
    4
   14,D
-   5,X
+   5,L,X
+#-2f shorter jump
+  26,R,J
+  17,R,D
 
-# Heat
-
-  45,R,J
-   5,K,X
+   4,X
+   1,R,J
   25,D
-  12,J
+#-3f jump lower
+  10,J
    5,L,X
    1
   40
-   5,R,J
-
-# heat berry 1
-
-   8,D
+   1,J,G
+   4,R
+   7
    5,Z
    1
   40
-   1
-  11,L,J
-   5,D,X
-  10
+   1,L,J
+  10,L,K
+  15,D,X
    9,J
    5,L,D,X
    5,L,J
@@ -360,15 +385,21 @@ Set, ExtendedVariantMode.DashSpeed, 100
   18,L,D
    5,L,D,X
    1,J
-   2,R,K
+   1,R,K
+   1,R,J
   40
+#lvl_heat-00-01
   12,R
-  15,D
+  12
+#-4f subpx manip + fast turnaround
+   2,D
+   1
    5,Z
    1,R
-   1,R,J,G
-   5,R
-   6,L
+   1,J,G
+   5
+   2,R
+   4,L
    5,R,Z
    1,R,J
    7,R,J
