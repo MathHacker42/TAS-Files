@@ -266,14 +266,39 @@ Set, ExtendedVariantMode.DashSpeed, 100
   40
 
 #lvl_peace_06
-   7,L,D
-   1,L
-   1,L,G
-   5,L,J
-  16,L,D
-  14,L,D,X
-   1,R,J
+
+############
+
    5,R,D,X
+   5
+
+## collect berry
+***
+   3
+##
+
+  11,L,J
+  11,D,X
+   4,J
+***
+   5,R,X
+
+#-----------
+
+#   7,L,D
+#   1,L
+#   1,L,G
+#   5,L,J
+#  16,L,D
+#  14,L,D,X
+#   1,R,J
+#   5,R,D,X
+#***
+
+## 1850
+
+############
+
   40
 
 #lvl_ch2-peace-12
@@ -287,7 +312,6 @@ Set, ExtendedVariantMode.DashSpeed, 100
 #+3f berry
    3
 # Void 1
-#-9f wallboost turnaround
    1,L,J
    3,J
    5,U,Z
@@ -308,11 +332,16 @@ Set, ExtendedVariantMode.DashSpeed, 100
 #lightning cycle
    0
 
-   5,R,D,X
+# berry
+***
+  10
+
+   5,R,X
   10,L,D
   19,L,D
    5,D,X
 #i always forget how cursed hitsquash is
+***
   10
    5,R,U,X
   40
@@ -331,7 +360,8 @@ Set, ExtendedVariantMode.DashSpeed, 100
    1,D,J
    1,O
   68
-#0:38.692(2276)
+***
+#0:38.692(2277)
 
    4,X
    1,J
