@@ -306,7 +306,6 @@ Set, ExtendedVariantMode.DashSpeed, 100
 # Void 1
 
 #lvl_crane-pink-01
-***
    1
 #+2f berry
    2
@@ -456,6 +455,7 @@ Set, ExtendedVariantMode.DashSpeed, 100
    5,J
    5,U,X
   40
+#***
 
 #lvl_heat-00-04
   11
@@ -466,6 +466,7 @@ Set, ExtendedVariantMode.DashSpeed, 100
   14,D
    5,U,X
   40
+#***
 
 #lvl_heat-02
   30
@@ -808,6 +809,17 @@ Set, ExtendedVariantMode.DashSpeed, 100
    3,L,J,G
    1
   40
+
+############
+
+#   6
+#   4,X
+#   1,J,G
+#  99,L
+
+#-----------
+
+
   17,D
    3
    5,L,U,X
@@ -1235,10 +1247,11 @@ Set, ExtendedVariantMode.DashSpeed, 100
   23,R,J
   13,R
   13,L
+#+4f berry
+   4,L
    5,D,X
-   4
    3
-   6
+  10
    5,R,D,X
    8
    2,L,J
@@ -1253,13 +1266,10 @@ Set, ExtendedVariantMode.DashSpeed, 100
    1,L,J
    9,L,D
   12,R,D
-
-## progress berry collection
-   8
-##
-
    5,X
    5
+#+1f berry
+   1
    6,L,J
    5,U,X
    1
@@ -1500,6 +1510,5 @@ Set, ExtendedVariantMode.DashSpeed, 100
 
 ## Time
 
-***
 # 150
 #   1,J
