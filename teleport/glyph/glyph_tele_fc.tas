@@ -938,12 +938,11 @@ Set, ExtendedVariantMode.DashSpeed, 100
    3,L,J
   13,L
   14,R
+# Winter berry 8
   17,R,D
-  10,D
-   8,R
-   3
-  13,R
-
+   9,D
+   3,R,D
+  21,R
    5,U,X
   10
   37,R
@@ -974,19 +973,26 @@ Set, ExtendedVariantMode.DashSpeed, 100
    5,D,X
    1,J,G
    3
-  28,D
-   5,X
-
+   2,L
+   1
+   4,L
+   1,L
+   1,L,J
+   9,R
+   1,R
+   5,R,D,X
 # Fall berry 2
-
-   7
-   3,J
+   8
+   1,J
+   1,K,G
    5,L,X
    1
    3
    8
-  10,L,J
-   7,L
+  12,L,J
+   8,L
+#2:06.922(7466)
+
    5,U,X
    1
    3
@@ -1001,14 +1007,12 @@ Set, ExtendedVariantMode.DashSpeed, 100
    3
    8,J,G
    7,R
-   5,J,X
+   4,X
+   1,J
   25,L,D
   12,D
-
-## collect berry
+#+13 berry
   13
-##
-
    2,L,J
    5,R,D,X
   40
@@ -1026,11 +1030,8 @@ Set, ExtendedVariantMode.DashSpeed, 100
    1,L,J,G
    8,L,K,G
   11,L
-
-## collect berry
+#+7 berry
    7
-##
-
    5,J,Z
   40
    2
@@ -1067,16 +1068,10 @@ Set, ExtendedVariantMode.DashSpeed, 100
    3
    2
   40
-   2,L,J,G
-   1,L,K,G
-   1,L,J,G
-   1,L,K,G
+   5,L,J,G
   14,L
-
-## collect berry
+#+7 berry
    7
-##
-
    5,J,Z
   40
   10,R
@@ -1144,103 +1139,56 @@ Set, ExtendedVariantMode.DashSpeed, 100
    4,X
    1,L,D
 # Fall berry 7
-
-############
-
    1
+   4
    1,J
-  10,L,K,G
-   7,L
-#2:31.402(8906)
-
-#-----------
-
-#   5
-#   1,J
-#  12,K,G
-#   1,J,G
-#2:31.402(8906)
-
-############
-
-# try buffered super 
-# then climb and do
-# strat from Any%
-# after fall void?
-
-
+   1,K,G
+  12,R,J
    5,L,U,X
   40
   10
-
-############
-
-***
    5,D,X
   10
-   2,J
-   6,R,Z
-   1,L,J
-   1,L
-   5
-   1,L,J
-   2,L
-   5,L,U,Z
-  40
-   1,L,J
-  13,L,K
-   1
-   5,U,Z
+   4,Z
    1,J
-   1,K
-   8,R
-#2:33.561(9033)
-
-#-----------
-
-
-#  20,D
-#   5,L,Z
-#  40
-#  10
-#   5,R,X
-#  12,J,G
-#  12,K,G
-#   5,L
-#   1,J
-#   2
-#2:33.731(9043)
-
-############
-
-#+5f berry
-#   5
+  40
+  21,D
+   5,R,Z
+   1
+   3,J,G
+   8
   12,R,J
   12,K,G
    5,U,X
   40
   12,L
-   5,L,D,X
-  43,R,J
-
-# Fall berry 8
-
-  10,R,K
-   5,U,Z
-  23,R,J
-  13,R
-  13,L
-   5,D,X
-  13
    5,R,D,X
-   8
+   4,J,G
+   3
+   1,J,G
    2,L,J
-   5,U,C
-   5
-  11,L
+   1
+   5,J
+   3
+  15,D
+   5,L,Z
+   1,J
+# Fall berry 8
+   9
+   4,Z
+   2,J
+   3
+   1,R,K
+  24,R
+   5,U,X
+  10
+  13,D
+   5,R,D,X
+   6
+   4,L,J
    5,U,X
   40
-  40,L,J
+  37,L
    5,U,X
    2
    1,L,J
@@ -1249,7 +1197,7 @@ Set, ExtendedVariantMode.DashSpeed, 100
    5,X
    5
 #+1f berry
-#   1
+   1
    6,L,J
    5,U,X
    1
@@ -1264,9 +1212,6 @@ Set, ExtendedVariantMode.DashSpeed, 100
    1,S
    1,D,J
   69,O
-***
-#2:42.605(9565)
-
    5,Z
    1,L,J
    7
@@ -1493,8 +1438,8 @@ Set, ExtendedVariantMode.DashSpeed, 100
  135
 
 ## Time
-#3:20.804(11812)
+#3:19.937(11761)
 
 
-# 150
-#   1,J
+ 150
+   1,J
