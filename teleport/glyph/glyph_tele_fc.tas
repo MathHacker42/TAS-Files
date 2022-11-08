@@ -854,58 +854,59 @@ Set, ExtendedVariantMode.DashSpeed, 100
    5,R,X
   40
   10
+
    6,L
    5,D,X
    2
-   2,L,J
-  40,J
-   5,L
-   4,L,J
-   5,D,X
-  10
-   5,X
+# spinner cycle
    1
-   1,J,G
-  19,D
-   3
-   5,L,U,X
-  10
-   5,D,X
-  10
-   3,J
-   5,Z
-  40
-   1,L,J
-   4,L
-  11
-   5,L,U,X
-  40
-   1
-   1,J,G
-   8,G
-   4
-  16,R,J
-   5,L,X
-   1
-   4,L,J,G
-   7,L
+   8
    5,R,X
-   3
+   1,L,J
+   2
+  40
+  14,R,D
+   5,L,Z
+   2
    1,J,G
+  10,R
+   7
+   3
+   5,U,Z
+  13,L,J
+   5,Z
+  40
+   1,L,J
+   7
    1,L
-   7,R,G
+   3
+   4,L
+   5,L,U,X
+  40
+   1,K
+  19,R,J
+   5,L,Z
+   3,L,J,G
    1
-   5,U,X
-  10
-  26,R
+   1,J,G
+   7,L
+   5,R,Z
+   1,J
+   3
+   5,G
+   4
+  15,U,X
+   7,R
+   5,D,X
+  13
+#1:53.781(6693)
    5,Z
    1,L,J
-
 # Winter berry 8
-
-  15,L
+  15,L,D
    3,L,J
    5,L,D,X
+
    9
    2,R,J
    5,U,Z
@@ -1009,21 +1010,14 @@ Set, ExtendedVariantMode.DashSpeed, 100
    7,R
    4,X
    1,J
-  25,L,D
-  12,D
-#+13 berry
-  13
-   2,L,J
-   5,R,D,X
+  14,R,D
   40
-  10,L,J
-   5,U,X
-  10
-  14,L,D
-  36,D
-
+  15,D,X
+   2
+   5,X
+  12,L,J
 # Fall berry 3
-
+  29,L,D
    5,X
    2,L,J
    1,L,K,G
@@ -1070,11 +1064,13 @@ Set, ExtendedVariantMode.DashSpeed, 100
   40
    5,L,J,G
   14,L
+
 #+7 berry
    7
-   5,J,Z
+   4,Z
+   1,J
   40
-  10,R
+  10
    5,L,D,X
    1
    1,R,J
@@ -1435,11 +1431,11 @@ Set, ExtendedVariantMode.DashSpeed, 100
   20,D
    5,D,X
    1
- 135
+ 136
 
 ## Time
-#3:19.937(11761)
+#3:18.628(11684)
 
 
- 150
-   1,J
+# 150
+#   1,J
