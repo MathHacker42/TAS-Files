@@ -412,15 +412,14 @@ Set, ExtendedVariantMode.DashSpeed, 100
   18,L,D
    5,L,D,X
    1,J
-   1,R,K
+   1,K,G
    1,R,J
   40
 
 #lvl_heat-00-01
-  12,R
-  12
-   2,D
-   1
+   1,R,K
+  10,R
+  15,D
    5,Z
    1,R
    1,J,G
@@ -676,7 +675,7 @@ Set, ExtendedVariantMode.DashSpeed, 100
    5,D,X
   10
 # lighting cycle
-   1
+   0
   12,L,J
    5,L,X
    1
@@ -758,9 +757,10 @@ Set, ExtendedVariantMode.DashSpeed, 100
    1
    1,J
    9,K,G
-   5,X
+   5,L,D,X
   40
-  10
+   9
+   1,J
    5,L,U,X
    2
   40
@@ -807,6 +807,7 @@ Set, ExtendedVariantMode.DashSpeed, 100
    3,R,K
    3
    5,L,X
+
    3,L,J,G
    1
   40
@@ -826,14 +827,11 @@ Set, ExtendedVariantMode.DashSpeed, 100
    6,R
    1,R,J
 
-## Winter berry 7 (retry)
+# Winter berry 7 (retry)
 
    5,D,X
-
-## collect berries
-  33
-##
-
+#+24 berry
+  24
    1,S
    1,D,J
   69,O
@@ -858,8 +856,9 @@ Set, ExtendedVariantMode.DashSpeed, 100
    6,L
    5,D,X
    2
+***
 # spinner cycle
-   1
+   0
    8
    5,R,X
    1,L,J
@@ -884,7 +883,7 @@ Set, ExtendedVariantMode.DashSpeed, 100
    5,L,U,X
   40
    1,K
-  19,R,J
+  19,J
    5,L,Z
    3,L,J,G
    1
@@ -939,7 +938,7 @@ Set, ExtendedVariantMode.DashSpeed, 100
    3,L,J
   13,L
   14,R
-# Winter berry 8
+# Winter berry 9
   17,R,D
    9,D
    3,R,D
@@ -1434,7 +1433,7 @@ Set, ExtendedVariantMode.DashSpeed, 100
  136
 
 ## Time
-#3:18.628(11684)
+#3:18.424(11672)
 
 
 # 150
