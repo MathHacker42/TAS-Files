@@ -1,9 +1,18 @@
-console load BeefyUncleTorre/map/1
-   1
+#console load BeefyUncleTorre/map/1
+#   1
 
-# teleport mode
+Unsafe
+
+   1,J
+#  30
+#   1,O
+
+  46
+
 #Start
  180
+
+# legacy mode
 Set, ExtendedVariantMode.DashSpeed, 100
    1,S
    1,J,F,180
@@ -856,7 +865,6 @@ Set, ExtendedVariantMode.DashSpeed, 100
    6,L
    5,D,X
    2
-***
 # spinner cycle
    0
    8
